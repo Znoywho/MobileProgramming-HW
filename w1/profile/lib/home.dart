@@ -57,9 +57,21 @@ class _HomeState extends State<Home> {
       // TODO: Switch between pages
       body: Padding(
         padding: const EdgeInsets.all(16.0),
-        child: Text(
-          'You Hungry?! ',
-          style: Theme.of(context).textTheme.displayLarge,
+        child: Center(
+          child: Column(
+            children: [
+              ClipOval(
+                child: Image.network(
+                  "https://avatars.githubusercontent.com/u/180621376?v=4",
+                  width: 160,
+                  height: 160,
+                  fit: BoxFit.cover,
+                ),
+              ),
+              Text("LE THIEN HAO", style: TextStyle(fontSize: 30)),
+              Text("MSSV: 089206010393", style: TextStyle(fontSize: 30)),
+            ],
+          ),
         ),
       ),
       // TODO: Add bottom navigation bar
