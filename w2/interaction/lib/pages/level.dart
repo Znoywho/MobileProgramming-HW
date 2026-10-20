@@ -15,9 +15,7 @@ class _Level extends State<Level> {
 
   @override
   Widget build(BuildContext context) {
-    double? gradeScore;
-    void statusColorUpdate() {}
-    // TODO: implement build
+    double? score;
     return Align(
       alignment: Alignment.topCenter,
       child: Column(

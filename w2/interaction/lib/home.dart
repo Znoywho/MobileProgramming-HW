@@ -36,7 +36,7 @@ class _Home extends State<Home> {
       selectedIcon: Icon(Icons.calculate),
     ),
     NavigationDestination(
-      icon: Icon(Icons.person_2_outlined),
+      icon: Icon(Icons.person_outlined),
       label: 'Account',
       selectedIcon: Icon(Icons.person),
     ),
