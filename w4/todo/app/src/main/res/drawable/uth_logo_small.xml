@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Logo nhỏ trên thanh tiêu đề: nền xanh, icon trắng -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="256"
+    android:viewportHeight="256">
+    <!-- Nền xanh bo góc -->
+    <path
+        android:fillColor="#3D5AFE"
+        android:pathData="M56,0H200A56,56 0,0 1,256,56V200A56,56 0,0 1,200,256H56A56,56 0,0 1,0,200V56A56,56 0,0 1,56,0Z" />
+    <!-- Hàng trên: vòng tròn được check -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,92A26,26 0,1 1,104,92A26,26 0,1 1,52,92Z" />
+    <path
+        android:pathData="M66,93L74,101L90,81"
+        android:strokeColor="#3D5AFE"
+        android:strokeWidth="10"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <!-- Hàng trên: thanh ngang -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M128,80H192A12,12 0,0 1,192,104H128A12,12 0,0 1,128,80Z" />
+    <!-- Hàng dưới: vòng tròn rỗng -->
+    <path
+        android:pathData="M57,168A21,21 0,1 1,99,168A21,21 0,1 1,57,168Z"
+        android:strokeColor="#B8C4FF"
+        android:strokeWidth="10" />
+    <!-- Hàng dưới: thanh ngắn -->
+    <path
+        android:fillColor="#B8C4FF"
+        android:pathData="M128,156H172A12,12 0,0 1,172,180H128A12,12 0,0 1,128,156Z" />
+</vector>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Converted from gemini-svg.svg (drop shadow filter is not supported in VectorDrawable) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="256dp"
+    android:height="256dp"
+    android:viewportWidth="256"
+    android:viewportHeight="256">
+    <!-- Khung nền trắng bo góc -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M84,40H172A44,44 0,0 1,216,84V172A44,44 0,0 1,172,216H84A44,44 0,0 1,40,172V84A44,44 0,0 1,84,40Z" />
+    <!-- Hàng trên: vòng tròn được check -->
+    <path
+        android:fillColor="#3D5AFE"
+        android:pathData="M74,104A16,16 0,1 1,106,104A16,16 0,1 1,74,104Z" />
+    <path
+        android:pathData="M83,105L88,110L98,97"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <!-- Hàng trên: thanh ngang -->
+    <path
+        android:fillColor="#3D5AFE"
+        android:pathData="M124,96H164A8,8 0,0 1,164,112H124A8,8 0,0 1,124,96Z" />
+    <!-- Hàng dưới: vòng tròn rỗng -->
+    <path
+        android:pathData="M76.5,152A13.5,13.5 0,1 1,103.5,152A13.5,13.5 0,1 1,76.5,152Z"
+        android:strokeColor="#9EAFFE"
+        android:strokeWidth="5" />
+    <!-- Hàng dưới: thanh ngang ngắn hơn -->
+    <path
+        android:fillColor="#9EAFFE"
+        android:pathData="M124,144H152A8,8 0,0 1,152,160H124A8,8 0,0 1,124,144Z" />
+</vector>
